@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F0F0F5;
+  color: #555;
+  font: 400 14px Roboto, sans-serif;
+}
+
+input,
+button,
+textarea {
+  font: 400 1.285rem Roboto, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+form input,
+form textarea {
+  padding: 0 1.714rem;
+  width: 100%;
+  height: 60px;
+  color: #333;
+  border: 1px solid #DCDCE6;
+  border-radius: 8px;
+}
+
+form textarea {
+  resize: vertical;
+  padding: 1.142rem 1.714rem;
+  min-height: 140px;
+  line-height: 24px;
+
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1.142rem;
+  width: 100%;
+  height: 60px;
+  background-color: #E02041;
+  border: 0;
+  border-radius: 8px;
+  color: #FFF;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: all .3s;
+}
+
+.btn:hover {
+  opacity: .9;
+}

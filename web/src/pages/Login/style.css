@@ -1,0 +1,44 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+}
+
+.login-container section.form {
+  width: 100%;
+  max-width: 350px;
+  margin-right: 40px;
+}
+
+.login-container section.form h1 {
+  margin-top: 100px;
+  color: #212121;
+  font-size: 2.285rem;
+}
+
+.login-container section.form form {
+  margin-top: 2.285rem;
+}
+
+.login-container section.form form .btn-register {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  color: #41414d;
+  font-size: 1.285rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.login-container section.form form .icon {
+  margin-right: 0.57rem;
+}
+
+.login-container section.form form .btn-register:hover {
+  opacity: .9;
+}
