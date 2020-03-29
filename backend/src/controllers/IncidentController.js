@@ -52,6 +52,8 @@ module.exports = {
         error: 'Operation not allowed'
       });
 
+    await db('incidents').where('id', id).delete();
+
     return res.sendStatus(204);
   }
 }
