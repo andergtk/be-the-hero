@@ -66,7 +66,7 @@ export default function Incidents() {
           <>
             <View style={styles.incident}>
               <Text style={styles.incidentProperty}>ONG:</Text>
-              <Text style={styles.incidentValue}>#{incident.id} {incident.name}</Text>
+              <Text style={styles.incidentValue}>{incident.name}</Text>
 
               <Text style={styles.incidentProperty}>Caso:</Text>
               <Text style={styles.incidentValue}>{incident.title}</Text>
